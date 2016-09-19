@@ -1,0 +1,9 @@
+   Prefix Verb   URI Pattern               Controller#Action
+    sites GET    /sites(.:format)          sites#index
+          POST   /sites(.:format)          sites#create
+ new_site GET    /sites/new(.:format)      sites#new
+edit_site GET    /sites/:id/edit(.:format) sites#edit
+     site GET    /sites/:id(.:format)      sites#show
+          PATCH  /sites/:id(.:format)      sites#update
+          PUT    /sites/:id(.:format)      sites#update
+          DELETE /sites/:id(.:format)      sites#destroy
